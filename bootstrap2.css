@@ -1,0 +1,40 @@
+.container {
+   
+    font-size: 1.2em;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10%;
+    color: brown; 
+    background-color: azure;   
+}
+
+label, input {
+    display: block;
+    width: 300px;
+}
+label{
+    
+    margin-top: 20px;
+    
+    
+}
+.btn {
+    color: orangered;
+    font-style: italic;
+    background-color: plum;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+ 
+.btn:hover{
+    transform: scale(1.1);
+    background-color: rosybrown;
+}
+
+
+

@@ -1,0 +1,40 @@
+html, body {
+    
+    width: 100%;
+    height: 100%;
+
+    background-image: url("5.3\ header.jpg.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+body {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    padding: 9.5%;
+    color: whitesmoke;
+    margin-right: 23px;
+    transition: 0.3s;
+
+}
+
+
+
+#mc-embedded-subscribe {
+    margin: 10%;
+    border-radius: 20px;
+    padding: 10px;
+    color: tomato;
+    background-color: wheat;
+    width: -350px;
+    transition: 0.3s;
+    
+
+}
+
+#mc-embedded-subscribe:hover{
+    transform: scale(1.1);
+}
+}
